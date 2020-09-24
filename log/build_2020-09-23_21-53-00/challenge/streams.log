@@ -1,0 +1,62 @@
+[0.020s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jared/subbot/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jared/subbot/software-start-here/install/challenge
+[0.220s] -- The C compiler identification is GNU 9.3.0
+[0.307s] -- The CXX compiler identification is GNU 9.3.0
+[0.316s] -- Check for working C compiler: /usr/bin/cc
+[0.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.391s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.476s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.559s] -- Detecting CXX compiler ABI info
+[0.641s] -- Detecting CXX compiler ABI info - done
+[0.656s] -- Detecting CXX compile features
+[0.657s] -- Detecting CXX compile features - done
+[0.664s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.693s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[0.693s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.921s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.981s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.072s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.100s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.273s] -- Looking for pthread.h
+[1.347s] -- Looking for pthread.h - found
+[1.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.425s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.425s] -- Looking for pthread_create in pthreads
+[1.487s] -- Looking for pthread_create in pthreads - not found
+[1.487s] -- Looking for pthread_create in pthread
+[1.558s] -- Looking for pthread_create in pthread - found
+[1.560s] -- Found Threads: TRUE  
+[1.747s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.788s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.874s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.876s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jared/subbot/software-start-here/src/challenge/include>
+[1.876s] -- Configured cppcheck exclude dirs and/or files: 
+[1.878s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.878s] -- Configured cpplint exclude dirs and/or files: 
+[1.879s] -- Added test 'lint_cmake' to check CMake code style
+[1.881s] -- Added test 'uncrustify' to check C / C++ code style
+[1.881s] -- Configured uncrustify additional arguments: 
+[1.882s] -- Added test 'xmllint' to check XML markup files
+[1.887s] -- Configuring done
+[1.895s] -- Generating done
+[1.898s] -- Build files have been written to: /home/jared/subbot/software-start-here/build/challenge
+[1.906s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jared/subbot/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jared/subbot/software-start-here/install/challenge
+[1.909s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8
+[1.958s] [35m[1mScanning dependencies of target solution[0m
+[2.061s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.174s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/geometry_msgs.h: No such file or directory
+[2.174s]     9 | #include [01;31m[K"geometry_msgs/geometry_msgs.h"[m[K
+[2.174s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.174s] compilation terminated.
+[2.175s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.176s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.176s] make: *** [Makefile:141: all] Error 2
+[2.178s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8

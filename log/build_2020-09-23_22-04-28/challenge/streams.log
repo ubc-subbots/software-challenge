@@ -1,0 +1,197 @@
+[0.014s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target solution[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.417s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[1.417s]    36 |   rclcpp::Publisher<[01;31m[Kgeometry_msg[m[K/msg/Twist>::SharedPtr publisher_;
+[1.418s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[1.418s]       |                     [32m[Kgeometry_msgs[m[K
+[1.418s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.418s]    36 |   rclcpp::Publisher<geometry_msg/[01;31m[Kmsg[m[K/Twist>::SharedPtr publisher_;
+[1.418s]       |                                  [01;31m[K^~~[m[K
+[1.418s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:34:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.418s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.419s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.420s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.420s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.420s]    26 | namespace [01;36m[Kmsg[m[K
+[1.421s]       |           [01;36m[K^~~[m[K
+[1.421s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.422s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.422s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[1.422s]    26 | namespace [01;36m[Kmsg[m[K
+[1.423s]       |           [01;36m[K^~~[m[K
+[1.423s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[1.423s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[1.423s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.423s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.423s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.423s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.424s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.424s]    26 | namespace [01;36m[Kmsg[m[K
+[1.424s]       |           [01;36m[K^~~[m[K
+[1.424s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+[1.424s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.424s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[1.424s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.424s]    26 | namespace [01;36m[Kmsg[m[K
+[1.424s]       |           [01;36m[K^~~[m[K
+[1.425s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:38:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[1.425s]    36 |   rclcpp::Publisher<geometry_msg/msg/[01;31m[KTwist[m[K>::SharedPtr publisher_;
+[1.425s]       |                                      [01;31m[K^~~~~[m[K
+[1.425s]       |                                      [32m[Kgeometry_msgs::msg::Twist[m[K
+[1.425s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.425s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[1.425s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[1.425s]   133 | using [01;36m[KTwist[m[K =
+[1.425s]       |       [01;36m[K^~~~~[m[K
+[1.426s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.426s]    36 |   rclcpp::Publisher<geometry_msg/msg/Twist[01;31m[K>[m[K::SharedPtr publisher_;
+[1.426s]       |                                           [01;31m[K^[m[K
+[1.426s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.426s]    36 |   rclcpp::Publisher<geometry_msg/msg/Twist>::[01;31m[KSharedPtr[m[K publisher_;
+[1.426s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[1.426s]       |                                                       [32m[K;[m[K
+[1.426s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:36:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.426s]    36 |   rclcpp::Publisher<geometry_msg/msg/Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.427s]       |                                                        [01;31m[K^~~~~~~~~~[m[K
+[1.427s]       |                                                        [32m[Krcl_publisher_t[m[K
+[1.427s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:49:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.427s]    49 | }
+[1.427s]       |  [01;31m[K^[m[K
+[1.427s]       |  [32m[K;[m[K
+[1.427s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[1.427s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.428s]    19 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs/msg/Twist>("/turtle1/cmd_vel", 10);
+[1.428s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.428s]       |       [32m[Krcl_publisher_t[m[K
+[1.428s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:19:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.428s]    19 |       publisher_ = this->[01;31m[Kcreate_publisher<geometry_msgs/msg/Twist>[m[K("/turtle1/cmd_vel", 10);
+[1.428s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.428s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:19:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksolution::create_publisher<<expression error> >(const char [17], int)[m[K’
+[1.428s]    19 | ate_publisher<geometry_msgs/msg/Twist>("/turtle1/cmd_vel", 10[01;31m[K)[m[K;
+[1.428s]       |                                                              [01;31m[K^[m[K
+[1.429s] 
+[1.429s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.429s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.429s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.429s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.429s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.429s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.429s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.430s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.430s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:19:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.430s]    19 | ate_publisher<geometry_msgs/msg/Twist>("/turtle1/cmd_vel", 10[01;31m[K)[m[K;
+[1.430s]       |                                                              [01;31m[K^[m[K
+[1.431s] 
+[1.431s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:21:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.431s]    21 |         [01;31m[K10ms[m[K, std::bind(&solution::sine_motion, this);
+[1.431s]       |         [01;31m[K^~~~[m[K
+[1.431s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:21:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.431s]    21 |         10ms, std::bind(&solution::sine_motion, this)[01;31m[K;[m[K
+[1.431s]       |                                                      [01;31m[K^[m[K
+[1.431s]       |                                                      [32m[K)[m[K
+[1.431s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:20:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.431s]    20 |       timer_ = this->create_wall_timer[01;36m[K([m[K
+[1.431s]       |                                       [01;36m[K^[m[K
+[1.432s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:22:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.432s]    22 |       [01;31m[K)[m[K
+[1.432s]       |       [01;31m[K^[m[K
+[1.432s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[1.432s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:28:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.432s]    28 |       auto signal = geometry_msgs[01;31m[K/[m[Kmsg/Twist();
+[1.432s]       |                                  [01;31m[K^[m[K
+[1.432s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.432s]    28 |       auto signal = geometry_msgs/[01;31m[Kmsg[m[K/Twist();
+[1.432s]       |                                   [01;31m[K^~~[m[K
+[1.432s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:28:35:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.432s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[1.432s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.433s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.433s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.433s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.433s]    26 | namespace [01;36m[Kmsg[m[K
+[1.434s]       |           [01;36m[K^~~[m[K
+[1.434s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.435s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.435s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[1.435s]    26 | namespace [01;36m[Kmsg[m[K
+[1.435s]       |           [01;36m[K^~~[m[K
+[1.435s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[1.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[1.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.435s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.435s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.435s]    26 | namespace [01;36m[Kmsg[m[K
+[1.435s]       |           [01;36m[K^~~[m[K
+[1.435s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+[1.435s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.435s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[1.436s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.436s]    26 | namespace [01;36m[Kmsg[m[K
+[1.436s]       |           [01;36m[K^~~[m[K
+[1.436s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[1.436s]    28 |       auto signal = geometry_msgs/msg/[01;31m[KTwist[m[K();
+[1.436s]       |                                       [01;31m[K^~~~~[m[K
+[1.436s]       |                                       [32m[Kgeometry_msgs::msg::Twist[m[K
+[1.436s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.436s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[1.436s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[1.436s]   133 | using [01;36m[KTwist[m[K =
+[1.436s]       |       [01;36m[K^~~~~[m[K
+[1.436s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.436s]    32 |       [01;31m[Kpublisher_[m[K->publish(signal);
+[1.436s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.437s]       |       [32m[Krcl_publisher_t[m[K
+[1.809s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.809s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.809s] make: *** [Makefile:141: all] Error 2
+[1.812s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8

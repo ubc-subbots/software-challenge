@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000707] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.013173] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.014347] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.015680] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jared/subbot/software-start-here/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/jared/subbot/software-start-here/build/challenge', 'env': OrderedDict([('LANGUAGE', 'en_CA:en'), ('USER', 'jared'), ('SSH_AGENT_PID', '1696'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jared'), ('OLDPWD', '/home/jared/subbot/software-start-here/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jared/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jared'), ('JOURNAL_STREAM', '9:45149'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jared'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jared/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.gem/ruby/2.7.0/bin:/home/jared/.gem/ruby/2.7.0/bin:/home/jared/scripts'), ('SESSION_MANAGER', 'local/jubuntu:@/tmp/.ICE-unix/1739,unix/jubuntu:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', 'e41a210809414c5c8b9a68304b16fc69'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903603fd_18ce_4b9a_81f1_2cf64c9671c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jared/subbot/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.067509] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.097718] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.098906] (-) TimerEvent: {}
+[0.199206] (-) TimerEvent: {}
+[0.299569] (-) TimerEvent: {}
+[0.399974] (-) TimerEvent: {}
+[0.500395] (-) TimerEvent: {}
+[0.600809] (-) TimerEvent: {}
+[0.701238] (-) TimerEvent: {}
+[0.801641] (-) TimerEvent: {}
+[0.902080] (-) TimerEvent: {}
+[1.002452] (-) TimerEvent: {}
+[1.102856] (-) TimerEvent: {}
+[1.203220] (-) TimerEvent: {}
+[1.303580] (-) TimerEvent: {}
+[1.400583] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksolution::solution()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.400874] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400999] (challenge) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[K10ms\x1b[m\x1b[K, std::bind(&solution::sine_motion, this)\n'}
+[1.401120] (challenge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.403708] (-) TimerEvent: {}
+[1.408368] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid solution::sine_motion()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.408651] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.408793] (challenge) StderrLine: {'line': b'   35 |       solution\x1b[01;31m\x1b[K.\x1b[m\x1b[Kpublisher_.publish(signal);\n'}
+[1.408882] (challenge) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.503875] (-) TimerEvent: {}
+[1.604380] (-) TimerEvent: {}
+[1.704773] (-) TimerEvent: {}
+[1.805151] (-) TimerEvent: {}
+[1.905562] (-) TimerEvent: {}
+[2.005944] (-) TimerEvent: {}
+[2.064228] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[2.064475] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[2.064627] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.066934] (challenge) CommandEnded: {'returncode': 2}
+[2.067503] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[2.077458] (-) EventReactorShutdown: {}

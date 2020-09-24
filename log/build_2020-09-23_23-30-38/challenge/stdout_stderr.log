@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:21:40:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   21 |       timer_ = this->create_wall_timer([01;31m[K10ms[m[K, std::bind(&solution::sine_motion, this));
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:33:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   33 |       publisher_.[01;31m[Kpublish[m[K(signal);
+      |                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

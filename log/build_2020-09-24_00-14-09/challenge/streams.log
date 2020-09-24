@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8
+[0.060s] [35m[1mScanning dependencies of target solution[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.355s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[1.356s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:30:54:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[1.356s]    30 |       signal.angular.z = cos(time_)/sqrt(sin(time_)**[01;31m[K2[m[K+time_**2);
+[1.356s]       |                                                      [01;31m[K^[m[K
+[1.356s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:30:63:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[1.356s]    30 |       signal.angular.z = cos(time_)/sqrt(sin(time_)**2+time_**[01;31m[K2[m[K);
+[1.356s]       |                                                               [01;31m[K^[m[K
+[2.249s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.249s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.249s] make: *** [Makefile:141: all] Error 2
+[2.252s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8

@@ -1,0 +1,8 @@
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:39:40:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K10[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::chrono::milliseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >[m[K’}
+   39 |   std::chrono::milliseconds interval = [01;31m[K10[m[K;
+      |                                        [01;31m[K^~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Kint[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

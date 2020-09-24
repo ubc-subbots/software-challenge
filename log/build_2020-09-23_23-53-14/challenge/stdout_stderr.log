@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:33:121:[m[K [01;31m[Kerror: [m[K‘[01m[Ksigal[m[K’ was not declared in this scope; did you mean ‘[01m[Ksignal[m[K’?
+   33 | logger(), "Moving turtle with linear speed: '%s' and angular speed: '%s'", signal.linear.x, [01;31m[Ksigal[m[K.angualr.z);
+      |                                                                                             [01;31m[K^~~~~[m[K
+
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

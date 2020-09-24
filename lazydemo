@@ -1,0 +1,5 @@
+#! /bin/bash
+
+source /opt/ros/foxy/setup.bash
+. install/setup.bash
+ros2 launch challenge_solution_launch.py

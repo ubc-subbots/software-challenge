@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target solution[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.356s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.358s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.358s]                  from [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.358s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[1.358s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:33:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kangualr[m[K’; did you mean ‘[01m[Kangular[m[K’?
+[1.358s]    33 | ogger(), "Moving turtle with linear speed: '%s' and angular speed: '%s'", signal.linear.x, signal.[01;31m[Kangualr[m[K.z);
+[1.358s]       |                                                                                                   [01;31m[K^~~~~~~[m[K
+[1.358s] 
+[2.272s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.273s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.273s] make: *** [Makefile:141: all] Error 2
+[2.275s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8

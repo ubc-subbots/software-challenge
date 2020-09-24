@@ -1,0 +1,15 @@
+[0.017s] Invoking command in '/home/jared/subbot/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8
+[0.066s] [35m[1mScanning dependencies of target solution[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.377s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[1.377s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:22:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.377s]    22 |         [01;31m[K10ms[m[K, std::bind(&solution::sine_motion, this)
+[1.377s]       |         [01;31m[K^~~~[m[K
+[1.384s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[1.384s] [01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass solution[m[K’ has no member named ‘[01m[Kpublisher_[m[K’
+[1.384s]    35 |       this->[01;31m[Kpublisher_[m[K.publish(signal);
+[1.384s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.028s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.029s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.029s] make: *** [Makefile:141: all] Error 2
+[2.032s] Invoked command in '/home/jared/subbot/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jared/subbot/software-start-here/build/challenge -- -j8 -l8

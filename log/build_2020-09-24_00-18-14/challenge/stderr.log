@@ -1,0 +1,4 @@
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:30:69:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[K((solution*)this)->solution::time_[m[K’ may be undefined [[01;35m[K-Wsequence-point[m[K]
+   30 |       signal.angular.z = cos(time_)/sqrt(pow(sin(time_),2)+pow([01;35m[Ktime_++[m[K,2));
+      |                                                                [01;35m[K~~~~~^~[m[K

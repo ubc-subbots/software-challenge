@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001596] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.002311] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.013560] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.014707] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.015812] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jared/subbot/software-start-here/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/jared/subbot/software-start-here/build/challenge', 'env': OrderedDict([('LANGUAGE', 'en_CA:en'), ('USER', 'jared'), ('SSH_AGENT_PID', '1696'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jared'), ('OLDPWD', '/home/jared/subbot/software-start-here/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jared/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jared/subbot/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jared'), ('JOURNAL_STREAM', '9:45149'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jared'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jared/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.gem/ruby/2.7.0/bin:/home/jared/.gem/ruby/2.7.0/bin:/home/jared/scripts'), ('SESSION_MANAGER', 'local/jubuntu:@/tmp/.ICE-unix/1739,unix/jubuntu:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', 'e41a210809414c5c8b9a68304b16fc69'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903603fd_18ce_4b9a_81f1_2cf64c9671c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jared/subbot/software-start-here/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jared/subbot/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/home/jared/subbot/software-start-here/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[0.065585] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.098545] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.099546] (-) TimerEvent: {}
+[0.199959] (-) TimerEvent: {}
+[0.300422] (-) TimerEvent: {}
+[0.400948] (-) TimerEvent: {}
+[0.501427] (-) TimerEvent: {}
+[0.601758] (-) TimerEvent: {}
+[0.702154] (-) TimerEvent: {}
+[0.802540] (-) TimerEvent: {}
+[0.902848] (-) TimerEvent: {}
+[1.003191] (-) TimerEvent: {}
+[1.103505] (-) TimerEvent: {}
+[1.203839] (-) TimerEvent: {}
+[1.304236] (-) TimerEvent: {}
+[1.404575] (-) TimerEvent: {}
+[1.504884] (-) TimerEvent: {}
+[1.605404] (-) TimerEvent: {}
+[1.705751] (-) TimerEvent: {}
+[1.806089] (-) TimerEvent: {}
+[1.906404] (-) TimerEvent: {}
+[2.006759] (-) TimerEvent: {}
+[2.107099] (-) TimerEvent: {}
+[2.207447] (-) TimerEvent: {}
+[2.307794] (-) TimerEvent: {}
+[2.408154] (-) TimerEvent: {}
+[2.508487] (-) TimerEvent: {}
+[2.608792] (-) TimerEvent: {}
+[2.709169] (-) TimerEvent: {}
+[2.809466] (-) TimerEvent: {}
+[2.909736] (-) TimerEvent: {}
+[3.010096] (-) TimerEvent: {}
+[3.110504] (-) TimerEvent: {}
+[3.210811] (-) TimerEvent: {}
+[3.311156] (-) TimerEvent: {}
+[3.361340] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[3.411295] (-) TimerEvent: {}
+[3.511670] (-) TimerEvent: {}
+[3.572532] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[3.584956] (challenge) CommandEnded: {'returncode': 0}
+[3.611148] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[3.612289] (-) TimerEvent: {}
+[3.623225] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jared/subbot/software-start-here/build/challenge'], 'cwd': '/home/jared/subbot/software-start-here/build/challenge', 'env': OrderedDict([('LANGUAGE', 'en_CA:en'), ('USER', 'jared'), ('SSH_AGENT_PID', '1696'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jared'), ('OLDPWD', '/home/jared/subbot/software-start-here/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jared/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jared/subbot/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jared'), ('JOURNAL_STREAM', '9:45149'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jared'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jared/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.gem/ruby/2.7.0/bin:/home/jared/.gem/ruby/2.7.0/bin:/home/jared/scripts'), ('SESSION_MANAGER', 'local/jubuntu:@/tmp/.ICE-unix/1739,unix/jubuntu:/tmp/.ICE-unix/1739'), ('INVOCATION_ID', 'e41a210809414c5c8b9a68304b16fc69'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903603fd_18ce_4b9a_81f1_2cf64c9671c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jared/subbot/software-start-here/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jared/subbot/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', '/usr/bin/vim'), ('CMAKE_PREFIX_PATH', '/home/jared/subbot/software-start-here/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[3.634821] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.635102] (challenge) StdoutLine: {'line': b'-- Installing: /home/jared/subbot/software-start-here/install/challenge/lib/challenge/solution\n'}
+[3.636334] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/jared/subbot/software-start-here/install/challenge/lib/challenge/solution" to ""\n'}
+[3.636650] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[3.636868] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[3.637026] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[3.637116] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[3.637239] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/environment/path.sh\n'}
+[3.637388] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/environment/path.dsv\n'}
+[3.637477] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/local_setup.bash\n'}
+[3.637556] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/local_setup.sh\n'}
+[3.637684] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/local_setup.zsh\n'}
+[3.637779] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/local_setup.dsv\n'}
+[3.637860] (challenge) StdoutLine: {'line': b'-- Installing: /home/jared/subbot/software-start-here/install/challenge/share/challenge/package.dsv\n'}
+[3.637935] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[3.638044] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[3.638125] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[3.638201] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/jared/subbot/software-start-here/install/challenge/share/challenge/package.xml\n'}
+[3.639112] (challenge) CommandEnded: {'returncode': 0}
+[3.653929] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[3.654778] (-) EventReactorShutdown: {}

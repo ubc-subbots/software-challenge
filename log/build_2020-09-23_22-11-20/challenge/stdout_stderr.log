@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:49:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   49 | };
+      | 
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:31:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   31 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving turtle with command: '%s'", signal;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:14:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   14 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:17:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksolution[m[K’ does not have any field named ‘[01m[Ktime_[m[K’
+   17 |     : Node("solution"), [01;31m[Ktime_[m[K(0)
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   19 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   20 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:21:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   21 |         [01;31m[K10ms[m[K, std::bind(&solution::sine_motion, this);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:21:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   21 |         10ms, std::bind(&solution::sine_motion, this)[01;31m[K;[m[K
+      |                                                      [01;31m[K^[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:20:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   20 |       timer_ = this->create_wall_timer[01;36m[K([m[K
+      |                                       [01;36m[K^[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:22:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   22 |       [01;31m[K)[m[K
+      |       [01;31m[K^[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::sine_motion()[m[K’:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:29:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime[m[K’?
+   29 |       signal = "{linear: {x: " + std::to_string(cos([01;31m[Ktime_[m[K)) + ", y: " + std::to_string(sin(time_)) + ", z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}";
+      |                                                     [01;31m[K^~~~~[m[K
+      |                                                     [32m[Ktime[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   31 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving turtle with command: '%s'", signal;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:31:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:27:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   27 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:[m[K At global scope:
+[01m[K/home/jared/subbot/software-start-here/src/challenge/src/solution.cpp:31:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   31 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Moving turtle with command: '%s'", signal;
+      |       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
