@@ -1,0 +1,4 @@
+Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package
+Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package

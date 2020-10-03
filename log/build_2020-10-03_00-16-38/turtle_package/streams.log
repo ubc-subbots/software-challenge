@@ -1,0 +1,12 @@
+[0.039s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.129s] [35m[1mScanning dependencies of target turtle_sine[0m
+[0.151s] [ 50%] Built target turtle_node
+[0.179s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o[0m
+[3.040s] [01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlePublisher::timer_callback()[m[K’:
+[3.041s] [01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[KtoSec[m[K’
+[3.041s]    28 |       double time = rclcpp::Node::now().[01;31m[KtoSec[m[K;
+[3.042s]       |                                         [01;31m[K^~~~~[m[K
+[4.805s] make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1
+[4.805s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2
+[4.805s] make: *** [Makefile:141: all] Error 2
+[4.810s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2

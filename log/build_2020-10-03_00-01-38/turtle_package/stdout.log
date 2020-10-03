@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target turtle_sine[0m
+[ 50%] Built target turtle_node
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_sine[0m
+[100%] Built target turtle_sine
+-- Install configuration: ""
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_node
+-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine
+-- Set runtime path of "/home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine" to ""
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/package_run_dependencies/turtle_package
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/parent_prefix_path/turtle_package
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.sh
+-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.sh
+-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.dsv
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.bash
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.sh
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.zsh
+-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.dsv
+-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.dsv
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/packages/turtle_package
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig.cmake
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig-version.cmake
+-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.xml

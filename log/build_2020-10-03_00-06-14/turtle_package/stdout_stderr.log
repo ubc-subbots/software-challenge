@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target turtle_sine[0m
+[ 50%] Built target turtle_node
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o[0m
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlePublisher::timer_callback()[m[K’:
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Time::__ct [m[K’ names the constructor, not the type
+   28 |       [01;31m[Krclcpp[m[K::Time::Time time = rclcpp::Node::now()
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktime[m[K’
+   28 |       rclcpp::Time::Time[01;31m[K [m[K[32m[Ktime[m[K = rclcpp::Node::now()
+      |                         [01;31m[K^[m[K[32m[K~~~~[m[K
+      |                         [32m[K;[m[K
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:29:40:[m[K [01;31m[Kerror: [m[Kstatement cannot resolve address of overloaded function
+   29 |       geometry_msgs::msg::Twist message[01;31m[K;[m[K
+      |                                        [01;31m[K^[m[K
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:30:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   30 |       [01;31m[Kmessage[m[K.linear.x = time;
+      |       [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,62 @@
+[0.038s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.077s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.490s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.627s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.809s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.857s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.226s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.235s] -- Looking for pthread.h
+[1.364s] -- Looking for pthread.h - found
+[1.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.484s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.484s] -- Looking for pthread_create in pthreads
+[1.588s] -- Looking for pthread_create in pthreads - not found
+[1.588s] -- Looking for pthread_create in pthread
+[1.697s] -- Looking for pthread_create in pthread - found
+[1.699s] -- Found Threads: TRUE  
+[2.122s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.211s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.337s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.339s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.340s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/andrewubuntu/software-start-here/src/turtle_package/include>
+[2.340s] -- Configured cppcheck exclude dirs and/or files: 
+[2.341s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.341s] -- Configured cpplint exclude dirs and/or files: 
+[2.343s] -- Added test 'lint_cmake' to check CMake code style
+[2.344s] -- Added test 'uncrustify' to check C / C++ code style
+[2.344s] -- Configured uncrustify additional arguments: 
+[2.344s] -- Added test 'xmllint' to check XML markup files
+[2.348s] -- Configuring done
+[2.366s] -- Generating done
+[2.370s] -- Build files have been written to: /home/andrewubuntu/software-start-here/build/turtle_package
+[2.405s] [35m[1mScanning dependencies of target turtle_sine[0m
+[2.420s] [ 50%] Built target turtle_node
+[2.429s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_node.cpp.o[0m
+[2.475s] [100%] [32m[1mLinking CXX executable turtle_sine[0m
+[2.614s] [100%] Built target turtle_sine
+[2.632s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[2.684s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package
+[2.700s] -- Install configuration: ""
+[2.700s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_node
+[2.701s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine
+[2.701s] -- Set runtime path of "/home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine" to ""
+[2.701s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/package_run_dependencies/turtle_package
+[2.702s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/parent_prefix_path/turtle_package
+[2.702s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.sh
+[2.702s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.dsv
+[2.702s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.sh
+[2.702s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.dsv
+[2.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.bash
+[2.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.sh
+[2.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.zsh
+[2.703s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.dsv
+[2.704s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.dsv
+[2.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/packages/turtle_package
+[2.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig.cmake
+[2.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig-version.cmake
+[2.704s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.xml
+[2.708s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package

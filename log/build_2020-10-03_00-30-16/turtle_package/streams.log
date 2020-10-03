@@ -1,0 +1,38 @@
+[0.037s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.083s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.508s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.295s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.373s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.512s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.514s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.515s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/andrewubuntu/software-start-here/src/turtle_package/include>
+[1.515s] -- Configured cppcheck exclude dirs and/or files: 
+[1.516s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.517s] -- Configured cpplint exclude dirs and/or files: 
+[1.518s] -- Added test 'lint_cmake' to check CMake code style
+[1.519s] -- Added test 'uncrustify' to check C / C++ code style
+[1.520s] -- Configured uncrustify additional arguments: 
+[1.520s] -- Added test 'xmllint' to check XML markup files
+[1.524s] -- Configuring done
+[1.545s] -- Generating done
+[1.548s] -- Build files have been written to: /home/andrewubuntu/software-start-here/build/turtle_package
+[1.595s] [ 50%] Built target turtle_node
+[1.612s] [100%] Built target turtle_sine
+[1.628s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[1.692s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package
+[1.705s] -- Install configuration: ""
+[1.706s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_node
+[1.707s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine
+[1.707s] CMake Error at cmake_install.cmake:77 (file):
+[1.708s]   file INSTALL cannot find
+[1.708s]   "/home/andrewubuntu/software-start-here/src/turtle_package/launch": No such
+[1.708s]   file or directory.
+[1.708s] 
+[1.708s] 
+[1.710s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package

@@ -1,0 +1,32 @@
+[0.025s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.114s] [35m[1mScanning dependencies of target turtle_sine[0m
+[0.140s] [ 50%] Built target turtle_node
+[0.168s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o[0m
+[5.335s] [100%] [32m[1mLinking CXX executable turtle_sine[0m
+[5.607s] [100%] Built target turtle_sine
+[5.622s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[5.682s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package
+[5.697s] -- Install configuration: ""
+[5.698s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_node
+[5.698s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine
+[5.700s] -- Set runtime path of "/home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine" to ""
+[5.701s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch
+[5.701s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/turtle_sine.launch.py
+[5.701s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/__pycache__
+[5.702s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/__pycache__/turtle_sine.launch.cpython-38.pyc
+[5.702s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/package_run_dependencies/turtle_package
+[5.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/parent_prefix_path/turtle_package
+[5.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.sh
+[5.703s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.dsv
+[5.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.sh
+[5.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.dsv
+[5.704s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.bash
+[5.705s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.sh
+[5.705s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.zsh
+[5.705s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.dsv
+[5.705s] -- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.dsv
+[5.706s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/packages/turtle_package
+[5.706s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig.cmake
+[5.707s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig-version.cmake
+[5.707s] -- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.xml
+[5.711s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/andrewubuntu/software-start-here/build/turtle_package

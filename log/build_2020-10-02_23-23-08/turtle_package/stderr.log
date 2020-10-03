@@ -1,0 +1,7 @@
+[01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/Twist.h: No such file or directory
+    7 | #include [01;31m[K<geometry_msgs/Twist.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

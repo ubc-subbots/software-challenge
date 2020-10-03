@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.082s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.478s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.306s] -- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.422s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.436s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/andrewubuntu/software-start-here/src/turtle_package/include>
+[1.437s] -- Configured cppcheck exclude dirs and/or files: 
+[1.439s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.440s] -- Configured cpplint exclude dirs and/or files: 
+[1.440s] -- Added test 'lint_cmake' to check CMake code style
+[1.441s] -- Added test 'uncrustify' to check C / C++ code style
+[1.441s] -- Configured uncrustify additional arguments: 
+[1.442s] -- Added test 'xmllint' to check XML markup files
+[1.445s] -- Configuring done
+[1.447s] CMake Error at CMakeLists.txt:28 (add_executable):
+[1.447s]   Cannot find source file:
+[1.448s] 
+[1.448s]     src/turtle_sine.cpp
+[1.448s] 
+[1.448s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.448s]   .hpp .hxx .in .txx
+[1.448s] 
+[1.448s] 
+[1.449s] CMake Error at CMakeLists.txt:28 (add_executable):
+[1.449s]   No SOURCES given to target: turtle_sine
+[1.449s] 
+[1.449s] 
+[1.450s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.461s] make: *** [Makefile:283: cmake_check_build_system] Error 1
+[1.462s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2

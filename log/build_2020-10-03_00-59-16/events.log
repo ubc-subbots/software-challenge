@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.002065] (turtle_package) JobQueued: {'identifier': 'turtle_package', 'dependencies': OrderedDict()}
+[0.002128] (turtle_package) JobStarted: {'identifier': 'turtle_package'}
+[0.026530] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'cmake'}
+[0.034508] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'build'}
+[0.034600] (turtle_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewubuntu/software-start-here/build/turtle_package', '--', '-j2', '-l2'], 'cwd': '/home/andrewubuntu/software-start-here/build/turtle_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'andrewubuntu'), ('SSH_AGENT_PID', '1807'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/andrewubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1555'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'andrewubuntu'), ('JOURNAL_STREAM', '9:32329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'andrewubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/andrewubuntu/bin:/home/andrewubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/andrewubuntu-VirtualBox:@/tmp/.ICE-unix/1855,unix/andrewubuntu-VirtualBox:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '9bf88da3d5254f82a7972888857aa772'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03da1889_75cf_4173_99f4_9f4c63988fde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrewubuntu/software-start-here/build/turtle_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy')]), 'shell': False}
+[0.100436] (-) TimerEvent: {}
+[0.102654] (turtle_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_sine\x1b[0m\n'}
+[0.122714] (turtle_package) StdoutLine: {'line': b'[ 50%] Built target turtle_node\n'}
+[0.149370] (turtle_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[0.201895] (-) TimerEvent: {}
+[0.302649] (-) TimerEvent: {}
+[0.403921] (-) TimerEvent: {}
+[0.504798] (-) TimerEvent: {}
+[0.606931] (-) TimerEvent: {}
+[0.708689] (-) TimerEvent: {}
+[0.810830] (-) TimerEvent: {}
+[0.912317] (-) TimerEvent: {}
+[1.013304] (-) TimerEvent: {}
+[1.114364] (-) TimerEvent: {}
+[1.216858] (-) TimerEvent: {}
+[1.317398] (-) TimerEvent: {}
+[1.418263] (-) TimerEvent: {}
+[1.518635] (-) TimerEvent: {}
+[1.619109] (-) TimerEvent: {}
+[1.719558] (-) TimerEvent: {}
+[1.820995] (-) TimerEvent: {}
+[1.923535] (-) TimerEvent: {}
+[2.023933] (-) TimerEvent: {}
+[2.125660] (-) TimerEvent: {}
+[2.226568] (-) TimerEvent: {}
+[2.327108] (-) TimerEvent: {}
+[2.427545] (-) TimerEvent: {}
+[2.528942] (-) TimerEvent: {}
+[2.629484] (-) TimerEvent: {}
+[2.730051] (-) TimerEvent: {}
+[2.830445] (-) TimerEvent: {}
+[2.930999] (-) TimerEvent: {}
+[3.031329] (-) TimerEvent: {}
+[3.133572] (-) TimerEvent: {}
+[3.234151] (-) TimerEvent: {}
+[3.336606] (-) TimerEvent: {}
+[3.438054] (-) TimerEvent: {}
+[3.539972] (-) TimerEvent: {}
+[3.642057] (-) TimerEvent: {}
+[3.742606] (-) TimerEvent: {}
+[3.843147] (-) TimerEvent: {}
+[3.944694] (-) TimerEvent: {}
+[4.046132] (-) TimerEvent: {}
+[4.146669] (-) TimerEvent: {}
+[4.250029] (-) TimerEvent: {}
+[4.351702] (-) TimerEvent: {}
+[4.454629] (-) TimerEvent: {}
+[4.555732] (-) TimerEvent: {}
+[4.657300] (-) TimerEvent: {}
+[4.759179] (-) TimerEvent: {}
+[4.860908] (-) TimerEvent: {}
+[4.962148] (-) TimerEvent: {}
+[5.063401] (-) TimerEvent: {}
+[5.164183] (-) TimerEvent: {}
+[5.265722] (-) TimerEvent: {}
+[5.366250] (-) TimerEvent: {}
+[5.467127] (-) TimerEvent: {}
+[5.568147] (-) TimerEvent: {}
+[5.647361] (turtle_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_sine\x1b[0m\n'}
+[5.668238] (-) TimerEvent: {}
+[5.769212] (-) TimerEvent: {}
+[5.870744] (-) TimerEvent: {}
+[5.951646] (turtle_package) StdoutLine: {'line': b'[100%] Built target turtle_sine\n'}
+[5.968488] (turtle_package) CommandEnded: {'returncode': 0}
+[5.970887] (-) TimerEvent: {}
+[6.015695] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'install'}
+[6.037392] (turtle_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrewubuntu/software-start-here/build/turtle_package'], 'cwd': '/home/andrewubuntu/software-start-here/build/turtle_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'andrewubuntu'), ('SSH_AGENT_PID', '1807'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/andrewubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1555'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'andrewubuntu'), ('JOURNAL_STREAM', '9:32329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'andrewubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/andrewubuntu/bin:/home/andrewubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/andrewubuntu-VirtualBox:@/tmp/.ICE-unix/1855,unix/andrewubuntu-VirtualBox:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '9bf88da3d5254f82a7972888857aa772'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03da1889_75cf_4173_99f4_9f4c63988fde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrewubuntu/software-start-here/build/turtle_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy')]), 'shell': False}
+[6.056336] (turtle_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.056627] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_node\n'}
+[6.056950] (turtle_package) StdoutLine: {'line': b'-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine\n'}
+[6.058935] (turtle_package) StdoutLine: {'line': b'-- Set runtime path of "/home/andrewubuntu/software-start-here/install/turtle_package/lib/turtle_package/turtle_sine" to ""\n'}
+[6.059428] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch\n'}
+[6.059767] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/turtle_sine.launch.py\n'}
+[6.060077] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/__pycache__\n'}
+[6.060347] (turtle_package) StdoutLine: {'line': b'-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package//launch/__pycache__/turtle_sine.launch.cpython-38.pyc\n'}
+[6.061111] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/package_run_dependencies/turtle_package\n'}
+[6.061698] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/parent_prefix_path/turtle_package\n'}
+[6.062245] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.sh\n'}
+[6.062453] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/ament_prefix_path.dsv\n'}
+[6.062790] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.sh\n'}
+[6.062969] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/environment/path.dsv\n'}
+[6.063127] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.bash\n'}
+[6.063282] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.sh\n'}
+[6.063433] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.zsh\n'}
+[6.063639] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/local_setup.dsv\n'}
+[6.063814] (turtle_package) StdoutLine: {'line': b'-- Installing: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.dsv\n'}
+[6.076712] (-) TimerEvent: {}
+[6.077043] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/ament_index/resource_index/packages/turtle_package\n'}
+[6.077220] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig.cmake\n'}
+[6.077459] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/cmake/turtle_packageConfig-version.cmake\n'}
+[6.077635] (turtle_package) StdoutLine: {'line': b'-- Up-to-date: /home/andrewubuntu/software-start-here/install/turtle_package/share/turtle_package/package.xml\n'}
+[6.077817] (turtle_package) CommandEnded: {'returncode': 0}
+[6.155799] (turtle_package) JobEnded: {'identifier': 'turtle_package', 'rc': 0}
+[6.157599] (-) EventReactorShutdown: {}

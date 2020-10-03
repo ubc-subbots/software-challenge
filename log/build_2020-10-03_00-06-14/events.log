@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.003378] (turtle_package) JobQueued: {'identifier': 'turtle_package', 'dependencies': OrderedDict()}
+[0.003449] (turtle_package) JobStarted: {'identifier': 'turtle_package'}
+[0.023269] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'cmake'}
+[0.026200] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'build'}
+[0.026318] (turtle_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewubuntu/software-start-here/build/turtle_package', '--', '-j2', '-l2'], 'cwd': '/home/andrewubuntu/software-start-here/build/turtle_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'andrewubuntu'), ('SSH_AGENT_PID', '1807'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/andrewubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1555'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'andrewubuntu'), ('JOURNAL_STREAM', '9:32329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'andrewubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/andrewubuntu/bin:/home/andrewubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/andrewubuntu-VirtualBox:@/tmp/.ICE-unix/1855,unix/andrewubuntu-VirtualBox:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '9bf88da3d5254f82a7972888857aa772'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03da1889_75cf_4173_99f4_9f4c63988fde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrewubuntu/software-start-here/build/turtle_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy')]), 'shell': False}
+[0.100480] (-) TimerEvent: {}
+[0.104135] (turtle_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_sine\x1b[0m\n'}
+[0.125335] (turtle_package) StdoutLine: {'line': b'[ 50%] Built target turtle_node\n'}
+[0.147546] (turtle_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[0.201505] (-) TimerEvent: {}
+[0.301997] (-) TimerEvent: {}
+[0.403080] (-) TimerEvent: {}
+[0.503617] (-) TimerEvent: {}
+[0.604709] (-) TimerEvent: {}
+[0.705226] (-) TimerEvent: {}
+[0.805775] (-) TimerEvent: {}
+[0.906303] (-) TimerEvent: {}
+[1.006994] (-) TimerEvent: {}
+[1.108335] (-) TimerEvent: {}
+[1.208866] (-) TimerEvent: {}
+[1.309399] (-) TimerEvent: {}
+[1.409904] (-) TimerEvent: {}
+[1.512420] (-) TimerEvent: {}
+[1.612913] (-) TimerEvent: {}
+[1.714046] (-) TimerEvent: {}
+[1.814578] (-) TimerEvent: {}
+[1.916066] (-) TimerEvent: {}
+[2.017962] (-) TimerEvent: {}
+[2.119971] (-) TimerEvent: {}
+[2.220912] (-) TimerEvent: {}
+[2.321488] (-) TimerEvent: {}
+[2.425008] (-) TimerEvent: {}
+[2.525509] (-) TimerEvent: {}
+[2.625939] (-) TimerEvent: {}
+[2.726510] (-) TimerEvent: {}
+[2.758201] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.758486] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time::__ct \x1b[m\x1b[K\xe2\x80\x99 names the constructor, not the type\n'}
+[2.758719] (turtle_package) StderrLine: {'line': b'   28 |       \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Time::Time time = rclcpp::Node::now()\n'}
+[2.758846] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.758962] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.759088] (turtle_package) StderrLine: {'line': b'   28 |       rclcpp::Time::Time\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Ktime\x1b[m\x1b[K = rclcpp::Node::now()\n'}
+[2.759202] (turtle_package) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[2.759314] (turtle_package) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.759426] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:29:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatement cannot resolve address of overloaded function\n'}
+[2.759913] (turtle_package) StderrLine: {'line': b'   29 |       geometry_msgs::msg::Twist message\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.760092] (turtle_package) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.761840] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:30:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.762105] (turtle_package) StderrLine: {'line': b'   30 |       \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.linear.x = time;\n'}
+[2.762310] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.826718] (-) TimerEvent: {}
+[2.928142] (-) TimerEvent: {}
+[3.029280] (-) TimerEvent: {}
+[3.129785] (-) TimerEvent: {}
+[3.230843] (-) TimerEvent: {}
+[3.331591] (-) TimerEvent: {}
+[3.432126] (-) TimerEvent: {}
+[3.533572] (-) TimerEvent: {}
+[3.634085] (-) TimerEvent: {}
+[3.734585] (-) TimerEvent: {}
+[3.835143] (-) TimerEvent: {}
+[3.937649] (-) TimerEvent: {}
+[4.038125] (-) TimerEvent: {}
+[4.138624] (-) TimerEvent: {}
+[4.239182] (-) TimerEvent: {}
+[4.340771] (-) TimerEvent: {}
+[4.417811] (turtle_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1\n'}
+[4.419758] (turtle_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2\n'}
+[4.420145] (turtle_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.423478] (turtle_package) CommandEnded: {'returncode': 2}
+[4.440968] (-) TimerEvent: {}
+[4.484998] (turtle_package) JobEnded: {'identifier': 'turtle_package', 'rc': 2}
+[4.496789] (-) EventReactorShutdown: {}

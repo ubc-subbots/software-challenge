@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.002125] (turtle_package) JobQueued: {'identifier': 'turtle_package', 'dependencies': OrderedDict()}
+[0.002187] (turtle_package) JobStarted: {'identifier': 'turtle_package'}
+[0.021620] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'cmake'}
+[0.023155] (turtle_package) JobProgress: {'identifier': 'turtle_package', 'progress': 'build'}
+[0.032163] (turtle_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrewubuntu/software-start-here/build/turtle_package', '--', '-j2', '-l2'], 'cwd': '/home/andrewubuntu/software-start-here/build/turtle_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'andrewubuntu'), ('SSH_AGENT_PID', '1807'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/andrewubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1555'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'andrewubuntu'), ('JOURNAL_STREAM', '9:32329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'andrewubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/andrewubuntu/bin:/home/andrewubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/andrewubuntu-VirtualBox:@/tmp/.ICE-unix/1855,unix/andrewubuntu-VirtualBox:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', '9bf88da3d5254f82a7972888857aa772'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03da1889_75cf_4173_99f4_9f4c63988fde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/models:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrewubuntu/software-start-here/build/turtle_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/andrewubuntu/Software_Challenge/src/sb_gazebo/lib:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3934132504b296ad74dd4f035f77e248'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/andrewubuntu/software-start-here/install/turtle_package:/opt/ros/foxy')]), 'shell': False}
+[0.099971] (-) TimerEvent: {}
+[0.101336] (turtle_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_sine\x1b[0m\n'}
+[0.114119] (turtle_package) StdoutLine: {'line': b'[ 50%] Built target turtle_node\n'}
+[0.157198] (turtle_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[0.200222] (-) TimerEvent: {}
+[0.301065] (-) TimerEvent: {}
+[0.401824] (-) TimerEvent: {}
+[0.502736] (-) TimerEvent: {}
+[0.603698] (-) TimerEvent: {}
+[0.704231] (-) TimerEvent: {}
+[0.805307] (-) TimerEvent: {}
+[0.908453] (-) TimerEvent: {}
+[1.009729] (-) TimerEvent: {}
+[1.110193] (-) TimerEvent: {}
+[1.210786] (-) TimerEvent: {}
+[1.311869] (-) TimerEvent: {}
+[1.412775] (-) TimerEvent: {}
+[1.513894] (-) TimerEvent: {}
+[1.614402] (-) TimerEvent: {}
+[1.714951] (-) TimerEvent: {}
+[1.815535] (-) TimerEvent: {}
+[1.917603] (-) TimerEvent: {}
+[2.018057] (-) TimerEvent: {}
+[2.118596] (-) TimerEvent: {}
+[2.219320] (-) TimerEvent: {}
+[2.322248] (-) TimerEvent: {}
+[2.422648] (-) TimerEvent: {}
+[2.524772] (-) TimerEvent: {}
+[2.625259] (-) TimerEvent: {}
+[2.725809] (-) TimerEvent: {}
+[2.746207] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.746672] (turtle_package) StderrLine: {'line': b'   35 |     rclcpp::Publisher<geometry_msgs::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[2.747098] (turtle_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.747419] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.747701] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7\x1b[m\x1b[K:\n'}
+[2.747961] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.748541] (turtle_package) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[2.748738] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.748898] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.749151] (turtle_package) StderrLine: {'line': b'   35 |     rclcpp::Publisher<geometry_msgs::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[2.749304] (turtle_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.749449] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.749596] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7\x1b[m\x1b[K:\n'}
+[2.749743] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.749898] (turtle_package) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[2.750087] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.750236] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:35:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.750387] (turtle_package) StderrLine: {'line': b'   35 |     rclcpp::Publisher<geometry_msgs::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[2.750537] (turtle_package) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.750694] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:35:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.750914] (turtle_package) StderrLine: {'line': b'   35 |     rclcpp::Publisher<geometry_msgs::Twist>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[2.751148] (turtle_package) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.751313] (turtle_package) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.753763] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:35:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.754204] (turtle_package) StderrLine: {'line': b'   35 |     rclcpp::Publisher<geometry_msgs::Twist>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.754437] (turtle_package) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754703] (turtle_package) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.757190] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtlePublisher::TurtlePublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.757798] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.758027] (turtle_package) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs:Twist>("/turtle1/cmd_vel", 10);\n'}
+[2.758155] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.758273] (turtle_package) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.760696] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760966] (turtle_package) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<geometry_msgs\x1b[01;31m\x1b[K:\x1b[m\x1b[KTwist>("/turtle1/cmd_vel", 10);\n'}
+[2.761456] (turtle_package) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.762215] (turtle_package) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[2.762506] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.762769] (turtle_package) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<geometry_msgs:\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("/turtle1/cmd_vel", 10);\n'}
+[2.763058] (turtle_package) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.763284] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.763501] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7\x1b[m\x1b[K:\n'}
+[2.763741] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.763974] (turtle_package) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[2.764190] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.764405] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.764625] (turtle_package) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<geometry_msgs:\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("/turtle1/cmd_vel", 10);\n'}
+[2.764870] (turtle_package) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.765087] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.765305] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7\x1b[m\x1b[K:\n'}
+[2.765536] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.765782] (turtle_package) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[2.766000] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.766216] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlePublisher::create_publisher<<expression error> >(const char [17], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.766435] (turtle_package) StderrLine: {'line': b'   20 | >create_publisher<geometry_msgs:Twist>("/turtle1/cmd_vel", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.766675] (turtle_package) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.766937] (turtle_package) StderrLine: {'line': b'\n'}
+[2.767174] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.767716] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.768002] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.768237] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[2.768455] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.768708] (turtle_package) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.768923] (turtle_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769150] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.769366] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:20:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.769607] (turtle_package) StderrLine: {'line': b'   20 | >create_publisher<geometry_msgs:Twist>("/turtle1/cmd_vel", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.769954] (turtle_package) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.770149] (turtle_package) StderrLine: {'line': b'\n'}
+[2.792267] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.792703] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:28:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.792880] (turtle_package) StderrLine: {'line': b'   28 |       geometry_msgs::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K message;\n'}
+[2.793073] (turtle_package) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.793194] (turtle_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.793310] (turtle_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7\x1b[m\x1b[K:\n'}
+[2.793424] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.793538] (turtle_package) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[2.793650] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.796005] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:29:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.796292] (turtle_package) StderrLine: {'line': b'   29 |       \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.linear.x = 1;\n'}
+[2.796458] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.801361] (turtle_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.801606] (turtle_package) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.801790] (turtle_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.801936] (turtle_package) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.826428] (-) TimerEvent: {}
+[2.927033] (-) TimerEvent: {}
+[3.028525] (-) TimerEvent: {}
+[3.129191] (-) TimerEvent: {}
+[3.230097] (-) TimerEvent: {}
+[3.330673] (-) TimerEvent: {}
+[3.432140] (-) TimerEvent: {}
+[3.534683] (-) TimerEvent: {}
+[3.640919] (-) TimerEvent: {}
+[3.659152] (turtle_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1\n'}
+[3.660170] (turtle_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2\n'}
+[3.660391] (turtle_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.662270] (turtle_package) CommandEnded: {'returncode': 2}
+[3.732393] (turtle_package) JobEnded: {'identifier': 'turtle_package', 'rc': 2}
+[3.741757] (-) TimerEvent: {}
+[3.744633] (-) EventReactorShutdown: {}

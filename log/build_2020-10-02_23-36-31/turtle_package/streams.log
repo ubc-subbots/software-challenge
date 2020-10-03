@@ -1,0 +1,12 @@
+[0.041s] Invoking command in '/home/andrewubuntu/software-start-here/build/turtle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2
+[0.115s] [35m[1mScanning dependencies of target turtle_sine[0m
+[0.134s] [ 50%] Built target turtle_node
+[0.155s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o[0m
+[0.337s] [01m[K/home/andrewubuntu/software-start-here/src/turtle_package/src/turtle_publisher.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/Twist.h: No such file or directory
+[0.337s]     7 | #include [01;31m[K"geometry_msgs/Twist.h"[m[K
+[0.337s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.337s] compilation terminated.
+[0.338s] make[2]: *** [CMakeFiles/turtle_sine.dir/build.make:63: CMakeFiles/turtle_sine.dir/src/turtle_publisher.cpp.o] Error 1
+[0.339s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtle_sine.dir/all] Error 2
+[0.339s] make: *** [Makefile:141: all] Error 2
+[0.344s] Invoked command in '/home/andrewubuntu/software-start-here/build/turtle_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/andrewubuntu/software-start-here/build/turtle_package -- -j2 -l2

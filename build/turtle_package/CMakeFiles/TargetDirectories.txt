@@ -1,0 +1,11 @@
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/install/strip.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/install/local.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/install.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/list_install_components.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/rebuild_cache.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/turtle_node.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/edit_cache.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/test.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/turtle_sine.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/turtle_package_uninstall.dir
+/home/andrewubuntu/software-start-here/build/turtle_package/CMakeFiles/uninstall.dir
