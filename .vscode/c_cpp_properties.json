@@ -1,0 +1,31 @@
+{
+  "configurations": [
+      {
+          "name": "Linux",
+          "browse": {
+              "path": [
+                  "/usr/include",
+                  "/usr/include/x86_64-linux-gnu/qt5",
+                  //"/usr/include/pcl",
+                  "/usr/include",
+                  "/usr/lib",
+                  "/usr/share"
+              ],
+              "limitSymbolsToIncludedHeaders": true
+          },
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/usr/include/**",
+              "/usr/include/opencv4/",
+              "/opt/ros/foxy/include/**",
+              "/usr/include/x86_64-linux-gnu/qt5/"
+          ],
+          "defines": [],
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c11",
+          "cppStandard": "c++17",
+          "intelliSenseMode": "clang-x64"
+      }
+  ],
+  "version": 4
+}
