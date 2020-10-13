@@ -1,0 +1,16 @@
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/lib/solution
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/package.dsv
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/package.xml

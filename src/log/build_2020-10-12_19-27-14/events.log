@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000839] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.014045] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.014718] (challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge', '-DCMAKE_INSTALL_PREFIX=/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge'], 'cwd': '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kota6'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kota6'), ('OLDPWD', '/home/kota6/Desktop/Subbots/software-start-here'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kota6/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kota6'), ('JOURNAL_STREAM', '9:39930'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kota6'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kota6-UX305UAB:@/tmp/.ICE-unix/1815,unix/kota6-UX305UAB:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '642586ea4fc6416daaf3492862407565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf99895b_5c1b_42a7_8367_447a6965e01e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[0.083861] (challenge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099613] (-) TimerEvent: {}
+[0.148490] (challenge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.154261] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199726] (-) TimerEvent: {}
+[0.234680] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.235806] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300742] (-) TimerEvent: {}
+[0.316296] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331541] (challenge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332104] (challenge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.335578] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400839] (-) TimerEvent: {}
+[0.429272] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.431213] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500952] (-) TimerEvent: {}
+[0.527650] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.544590] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.545620] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.549264] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.576782] (challenge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.577006] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.601077] (-) TimerEvent: {}
+[0.701434] (-) TimerEvent: {}
+[0.795784] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.801539] (-) TimerEvent: {}
+[0.832896] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.840170] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901693] (-) TimerEvent: {}
+[0.934846] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.967910] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.001808] (-) TimerEvent: {}
+[1.064098] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101931] (-) TimerEvent: {}
+[1.131531] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.133494] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.134683] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.202053] (-) TimerEvent: {}
+[1.217166] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.217520] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301046] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.301363] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.302122] (-) TimerEvent: {}
+[1.368571] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.368909] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.402253] (-) TimerEvent: {}
+[1.448973] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.450559] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.502364] (-) TimerEvent: {}
+[1.602760] (-) TimerEvent: {}
+[1.643083] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.685164] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.702886] (-) TimerEvent: {}
+[1.770188] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.771571] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.771865] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.772040] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.773074] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.773289] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.774187] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.775410] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.775629] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.776249] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.780140] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.789118] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.791092] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/kota6/Desktop/Subbots/software-start-here/src/build/challenge\n'}
+[1.798318] (challenge) CommandEnded: {'returncode': 0}
+[1.799316] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[1.800331] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge', '--', '-j4', '-l4'], 'cwd': '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kota6'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kota6'), ('OLDPWD', '/home/kota6/Desktop/Subbots/software-start-here'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kota6/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kota6'), ('JOURNAL_STREAM', '9:39930'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kota6'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kota6-UX305UAB:@/tmp/.ICE-unix/1815,unix/kota6-UX305UAB:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '642586ea4fc6416daaf3492862407565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf99895b_5c1b_42a7_8367_447a6965e01e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[1.803368] (-) TimerEvent: {}
+[1.854361] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[1.903478] (-) TimerEvent: {}
+[1.903860] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[2.003603] (-) TimerEvent: {}
+[2.104020] (-) TimerEvent: {}
+[2.204447] (-) TimerEvent: {}
+[2.304877] (-) TimerEvent: {}
+[2.405334] (-) TimerEvent: {}
+[2.505769] (-) TimerEvent: {}
+[2.606215] (-) TimerEvent: {}
+[2.706636] (-) TimerEvent: {}
+[2.807022] (-) TimerEvent: {}
+[2.907425] (-) TimerEvent: {}
+[3.007847] (-) TimerEvent: {}
+[3.108239] (-) TimerEvent: {}
+[3.208670] (-) TimerEvent: {}
+[3.309091] (-) TimerEvent: {}
+[3.409520] (-) TimerEvent: {}
+[3.509956] (-) TimerEvent: {}
+[3.610394] (-) TimerEvent: {}
+[3.710806] (-) TimerEvent: {}
+[3.811204] (-) TimerEvent: {}
+[3.911656] (-) TimerEvent: {}
+[4.012092] (-) TimerEvent: {}
+[4.112553] (-) TimerEvent: {}
+[4.212996] (-) TimerEvent: {}
+[4.313391] (-) TimerEvent: {}
+[4.413806] (-) TimerEvent: {}
+[4.514224] (-) TimerEvent: {}
+[4.614643] (-) TimerEvent: {}
+[4.715073] (-) TimerEvent: {}
+[4.815619] (-) TimerEvent: {}
+[4.916151] (-) TimerEvent: {}
+[5.016573] (-) TimerEvent: {}
+[5.117074] (-) TimerEvent: {}
+[5.217571] (-) TimerEvent: {}
+[5.317998] (-) TimerEvent: {}
+[5.369362] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[5.418156] (-) TimerEvent: {}
+[5.518732] (-) TimerEvent: {}
+[5.575749] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[5.590297] (challenge) CommandEnded: {'returncode': 0}
+[5.616725] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[5.618939] (-) TimerEvent: {}
+[5.629941] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge'], 'cwd': '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kota6'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/kota6'), ('OLDPWD', '/home/kota6/Desktop/Subbots/software-start-here'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/kota6/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kota6'), ('JOURNAL_STREAM', '9:39930'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kota6'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kota6-UX305UAB:@/tmp/.ICE-unix/1815,unix/kota6-UX305UAB:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '642586ea4fc6416daaf3492862407565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf99895b_5c1b_42a7_8367_447a6965e01e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kota6/Desktop/Subbots/software-start-here/src/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kota6/Desktop/Subbots/software-start-here/src/challenge/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[5.640264] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.640553] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/lib/solution\n'}
+[5.641926] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/lib/solution" to ""\n'}
+[5.642164] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[5.642459] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[5.642759] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[5.642970] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[5.643189] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.sh\n'}
+[5.643430] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.dsv\n'}
+[5.643639] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.bash\n'}
+[5.643853] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.sh\n'}
+[5.644057] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.zsh\n'}
+[5.644263] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.dsv\n'}
+[5.644480] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/package.dsv\n'}
+[5.644745] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[5.645016] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[5.645209] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[5.645411] (challenge) StdoutLine: {'line': b'-- Installing: /home/kota6/Desktop/Subbots/software-start-here/src/install/challenge/share/challenge/package.xml\n'}
+[5.647888] (challenge) CommandEnded: {'returncode': 0}
+[5.665509] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[5.666585] (-) EventReactorShutdown: {}
