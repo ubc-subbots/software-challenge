@@ -1,0 +1,10 @@
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/install/strip.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/install/local.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/install.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/list_install_components.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/edit_cache.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/test.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/sineSender.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/dennis/Projects/ROS/software-start-here/build/challenge/CMakeFiles/uninstall.dir
